@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1150px) {
+
+    /* photo-gallery */
+
+    .photo-segment {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Reference */
+
+    .col.span-1-of-3.one-reference {
+        width: 49,1%;
+        margin-left: 10px;
+    }
+    .one-reference:nth-child(3) {
+        display: none;
+    }
+
+    /* About-us */
+    .pizza-example img {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .pizza-example .span-1-of-2 {
+        width: 47.5%;               
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    /* Mobie manu */
+
+    nav ul li {
+        display: block;
+    }
+
+    .nav-background {
+        /* display: none */
+    }
+
+    .mobile-nav-back {
+        height: 200px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0,0,0,0.9);
+        border-bottom: 2px solid #fff;
+        display: none;
+        z-index: 100;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 2%;
+    }
+
+    nav ul {
+        display: none;
+        z-index: 200;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:active {
+    border-bottom: 2px solid transparent;
+    
+}
+}
+
+/* Our-pizza */
+
+@media only screen and (max-width: 860px) {
+    .pizza-info .span-1-of-2 {
+        width: 96%;
+    }
+
+    .pizza-info img {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    .text-pizza p {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+
+    .text-pizza p {
+        padding-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    /* photo-gallery */
+
+     .col.span-1-of-3.one-reference {
+        width: 49,1%;
+    }
+    .photo-segment {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .photo-segment .col { 
+        margin-left: 0;
+    }
+    .photo-segment li {
+        width: 100%;
+    }
+
+    /* About-us */
+
+    .pizza-example .span-1-of-2 {
+        width: 96%;               
+    }
+
+    .pizza-example .col {
+        margin-left: 0px; 
+    }
+
+    .pizza-example img {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
+
+
+@media only screen and (max-width: 685px) {
+    /* Header */
+
+    .header-text {
+        width: 100%;
+        left: 0%;
+        transform: translate(0%);
+    }
+
+    .header-text h1 {
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }    
+
+    .btn-empty:link,
+    .btn-empty:visited {
+        margin-left: 10px;
+}
+}
+
+@media only screen and (max-width: 685px) {
+
+    /* Reference */
+
+    .col.span-1-of-3.one-reference {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .photo-name {
+        float: right;
+        margin-right: 20px;
+    }
+}
